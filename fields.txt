@@ -1,0 +1,50 @@
+fields.id
+fields.key
+fields.author.displayName
+fields.created
+fields.creator.displayName
+fields.reporter.displayName
+fields.status.name
+
+fields.issuetype.name
+fields.priority.name
+fields.project.key
+
+
+# Task
+fields.customfield_10010.currentStatus.status
+fields.customfield_10010.currentStatus.statusDate.friendly
+fields.customfield_10010.requestType.name
+
+# Time to Resolution
+fields.customfield_10100.completedCycles.breached
+fields.customfield_10100.completedCycles.startTime.friendly
+fields.customfield_10100.completedCycles.stopTime.friendly
+fields.customfield_10100.completedCycles.elapsedTime.friendly
+
+# Company
+fields.customfield_10200.value
+
+# Time to acknowledge
+fields.customfield_10203.completedCycles.breached
+fields.customfield_10203.completedCycles.startTime.friendly
+fields.customfield_10203.completedCycles.stopTime.friendly
+fields.customfield_10203.completedCycles.elapsedTime.friendly
+
+# Time to Respond
+fields.customfield_10204.completedCycles.breached
+fields.customfield_10204.completedCycles.startTime.friendly
+fields.customfield_10204.completedCycles.stopTime.friendly
+fields.customfield_10204.completedCycles.elapsedTime.friendly
+
+# Follow Up - 7 Days
+fields.customfield_10704.completedCycles.breached
+fields.customfield_10704.completedCycles.startTime.friendly
+fields.customfield_10704.completedCycles.stopTime.friendly
+fields.customfield_10704.completedCycles.elapsedTime.friendly
+
+# Ticket Resolved after 10 days of inactivity
+fields.customfield_10706.completedCycles.breached
+fields.customfield_10706.completedCycles.startTime.friendly
+fields.customfield_10706.completedCycles.stopTime.friendly
+fields.customfield_10706.completedCycles.elapsedTime.friendly
